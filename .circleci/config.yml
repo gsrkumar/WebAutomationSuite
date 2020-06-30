@@ -5,7 +5,7 @@ jobs:
     working_directory: ~/WebAutomationSuite
 
     docker:
-      - image: circleci/web-automation:firstimage
+      - image: sureifylabs/sureify-automation:firstimage
       
 
     steps:
