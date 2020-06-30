@@ -2,72 +2,76 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Test Suite" duration-ms="25123" started-at="2020-04-11T11:40:39Z" finished-at="2020-04-11T11:41:04Z">
+  <suite name="Test Suite" duration-ms="83986" started-at="2020-06-30T09:20:32Z" finished-at="2020-06-30T09:21:56Z">
     <groups>
     </groups>
-    <test name="Sample Test One" duration-ms="19779" started-at="2020-04-11T11:40:39Z" finished-at="2020-04-11T11:40:58Z">
-      <class name="web.services.symetra.tests.HomePageTest">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:web.services.symetra.tests.HomePageTest@31ef45e3]" name="openBrowser" is-config="true" duration-ms="8434" started-at="2020-04-11T11:40:39Z" finished-at="2020-04-11T11:40:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="testOne()[pri:1, instance:web.services.symetra.tests.HomePageTest@31ef45e3]" name="testOne" duration-ms="12" started-at="2020-04-11T11:40:47Z" finished-at="2020-04-11T11:40:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testOne -->
-        <test-method status="PASS" signature="close()[pri:0, instance:web.services.symetra.tests.HomePageTest@31ef45e3]" name="close" is-config="true" duration-ms="2390" started-at="2020-04-11T11:40:47Z" finished-at="2020-04-11T11:40:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:web.services.symetra.tests.HomePageTest@31ef45e3]" name="openBrowser" is-config="true" duration-ms="8012" started-at="2020-04-11T11:40:50Z" finished-at="2020-04-11T11:40:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="testTwo()[pri:2, instance:web.services.symetra.tests.HomePageTest@31ef45e3]" name="testTwo" duration-ms="2" started-at="2020-04-11T11:40:58Z" finished-at="2020-04-11T11:40:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTwo -->
-        <test-method status="PASS" signature="close()[pri:0, instance:web.services.symetra.tests.HomePageTest@31ef45e3]" name="close" is-config="true" duration-ms="302" started-at="2020-04-11T11:40:58Z" finished-at="2020-04-11T11:40:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:web.services.symetra.tests.HomePageTest@31ef45e3]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-04-11T11:40:58Z" finished-at="2020-04-11T11:40:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- web.services.symetra.tests.HomePageTest -->
-    </test> <!-- Sample Test One -->
-    <test name="Sample Test two" duration-ms="25123" started-at="2020-04-11T11:40:39Z" finished-at="2020-04-11T11:41:04Z">
+    <test name="Sample Test two" duration-ms="57537" started-at="2020-06-30T09:20:32Z" finished-at="2020-06-30T09:21:30Z">
       <class name="web.services.symetra.tests.HomePageTestTwo">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:web.services.symetra.tests.HomePageTestTwo@69ea3742]" name="openBrowser" is-config="true" duration-ms="7829" started-at="2020-04-11T11:40:39Z" finished-at="2020-04-11T11:40:46Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:web.services.symetra.tests.HomePageTestTwo@4b952a2d]" name="openBrowser" is-config="true" duration-ms="32207" started-at="2020-06-30T09:20:33Z" finished-at="2020-06-30T09:21:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="testOne()[pri:1, instance:web.services.symetra.tests.HomePageTestTwo@69ea3742]" name="testOne" duration-ms="121" started-at="2020-04-11T11:40:46Z" finished-at="2020-04-11T11:40:47Z">
+        <test-method status="PASS" signature="testOne()[pri:1, instance:web.services.symetra.tests.HomePageTestTwo@4b952a2d]" name="testOne" duration-ms="525" started-at="2020-06-30T09:21:05Z" finished-at="2020-06-30T09:21:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOne -->
-        <test-method status="PASS" signature="close()[pri:0, instance:web.services.symetra.tests.HomePageTestTwo@69ea3742]" name="close" is-config="true" duration-ms="2511" started-at="2020-04-11T11:40:47Z" finished-at="2020-04-11T11:40:49Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:web.services.symetra.tests.HomePageTestTwo@4b952a2d]" name="close" is-config="true" duration-ms="102" started-at="2020-06-30T09:21:06Z" finished-at="2020-06-30T09:21:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:web.services.symetra.tests.HomePageTestTwo@69ea3742]" name="openBrowser" is-config="true" duration-ms="11703" started-at="2020-04-11T11:40:49Z" finished-at="2020-04-11T11:41:01Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:web.services.symetra.tests.HomePageTestTwo@4b952a2d]" name="openBrowser" is-config="true" duration-ms="23444" started-at="2020-06-30T09:21:06Z" finished-at="2020-06-30T09:21:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="testTwo()[pri:2, instance:web.services.symetra.tests.HomePageTestTwo@69ea3742]" name="testTwo" duration-ms="1" started-at="2020-04-11T11:41:01Z" finished-at="2020-04-11T11:41:01Z">
+        <test-method status="PASS" signature="testTwo()[pri:2, instance:web.services.symetra.tests.HomePageTestTwo@4b952a2d]" name="testTwo" duration-ms="1" started-at="2020-06-30T09:21:29Z" finished-at="2020-06-30T09:21:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTwo -->
-        <test-method status="PASS" signature="close()[pri:0, instance:web.services.symetra.tests.HomePageTestTwo@69ea3742]" name="close" is-config="true" duration-ms="2317" started-at="2020-04-11T11:41:01Z" finished-at="2020-04-11T11:41:04Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:web.services.symetra.tests.HomePageTestTwo@4b952a2d]" name="close" is-config="true" duration-ms="135" started-at="2020-06-30T09:21:30Z" finished-at="2020-06-30T09:21:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:web.services.symetra.tests.HomePageTestTwo@69ea3742]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-04-11T11:41:04Z" finished-at="2020-04-11T11:41:04Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:web.services.symetra.tests.HomePageTestTwo@4b952a2d]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-30T09:21:30Z" finished-at="2020-06-30T09:21:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- web.services.symetra.tests.HomePageTestTwo -->
     </test> <!-- Sample Test two -->
+    <test name="Sample Test One" duration-ms="83986" started-at="2020-06-30T09:20:32Z" finished-at="2020-06-30T09:21:56Z">
+      <class name="web.services.symetra.tests.HomePageTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:web.services.symetra.tests.HomePageTest@598067a5]" name="openBrowser" is-config="true" duration-ms="28676" started-at="2020-06-30T09:20:33Z" finished-at="2020-06-30T09:21:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:web.services.symetra.tests.HomePageTest@598067a5]" name="openBrowser" is-config="true" duration-ms="23442" started-at="2020-06-30T09:21:01Z" finished-at="2020-06-30T09:21:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testOne()[pri:1, instance:web.services.symetra.tests.HomePageTest@598067a5]" name="testOne" duration-ms="22" started-at="2020-06-30T09:21:25Z" finished-at="2020-06-30T09:21:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="close()[pri:0, instance:web.services.symetra.tests.HomePageTest@598067a5]" name="close" is-config="true" duration-ms="88" started-at="2020-06-30T09:21:25Z" finished-at="2020-06-30T09:21:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:web.services.symetra.tests.HomePageTest@598067a5]" name="openBrowser" is-config="true" duration-ms="30677" started-at="2020-06-30T09:21:25Z" finished-at="2020-06-30T09:21:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testTwo()[pri:2, instance:web.services.symetra.tests.HomePageTest@598067a5]" name="testTwo" duration-ms="1" started-at="2020-06-30T09:21:56Z" finished-at="2020-06-30T09:21:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+        <test-method status="PASS" signature="close()[pri:0, instance:web.services.symetra.tests.HomePageTest@598067a5]" name="close" is-config="true" duration-ms="71" started-at="2020-06-30T09:21:56Z" finished-at="2020-06-30T09:21:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:web.services.symetra.tests.HomePageTest@598067a5]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-06-30T09:21:56Z" finished-at="2020-06-30T09:21:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- web.services.symetra.tests.HomePageTest -->
+    </test> <!-- Sample Test One -->
   </suite> <!-- Test Suite -->
 </testng-results>
