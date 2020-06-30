@@ -22,7 +22,7 @@ jobs:
             - ~/.m2
           key: WebAutomationSuite-{{ checksum "pom.xml" }}
       
-      - run: mvn clean test -DsuiteXmlFile=testng.xml
+      - run: cd WebAutomationSuite && mvn clean test -DsuiteXmlFile=testng.xml
       
       - store_artifacts:
           path: ./WebAutomationSuite/TestReport
