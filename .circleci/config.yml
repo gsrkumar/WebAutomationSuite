@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     
-    working_directory: ~/WebAutomationSuite/WebAutomationSuite
+    working_directory: ~/WebAutomationSuite
 
     docker:
       - image: circleci/web-automation:firstimage
@@ -13,14 +13,14 @@ jobs:
       - checkout
 
       - restore_cache:
-          key: WebAutomationSuite/WebAutomationSuite-{{ checksum "pom.xml" }}
+          key: WebAutomationSuite-{{ checksum "pom.xml" }}
       
       - run: mvn dependency:go-offline
       
       - save_cache:
           paths:
             - ~/.m2
-          key: WebAutomationSuite/WebAutomationSuite-{{ checksum "pom.xml" }}
+          key: WebAutomationSuite-{{ checksum "pom.xml" }}
       
       - run: mvn clean test -DsuiteXmlFile=testng.xml
       
