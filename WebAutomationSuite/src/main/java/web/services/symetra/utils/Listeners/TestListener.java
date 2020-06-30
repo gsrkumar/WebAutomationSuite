@@ -16,24 +16,28 @@ import web.services.symetra.utils.UtilFunctions.UtilClass;
 
 public class TestListener extends TestBase implements ITestListener{
 	
+	@Override
 	public void onStart(ITestContext context) {
 		System.out.println("*** Test Suite " + context.getName() + " started ***");
 		//context.setAttribute("WebDriver", this.driver);
 		
 	}
 
+	@Override
 	public void onFinish(ITestContext context) {
 		System.out.println(("*** Test Suite " + context.getName() + " ending ***"));
 		ExtentTestManager.endTest();
 		ExtentManager.getInstance().flush();
 	}
 
+	@Override
 	public void onTestStart(ITestResult result) {
 
 		System.out.println(("*** Running test method " + result.getMethod().getMethodName() + "*****"));
 		ExtentTestManager.startTest(result.getMethod().getMethodName());
 	}
 
+	@Override
 	public void onTestSuccess(ITestResult result) {
 		System.out.println("*** Executed " + result.getMethod().getMethodName() + " test successfully...");
 		 String image = null;
@@ -49,6 +53,7 @@ public class TestListener extends TestBase implements ITestListener{
 		ExtentTestManager.getTest().addScreenCaptureFromBase64String(image);
 	}
 
+	@Override
 	public void onTestFailure(ITestResult result) {
 		System.out.println("*** Test execution " + result.getMethod().getMethodName() + " failed...");
 		String image = null;
@@ -68,11 +73,13 @@ public class TestListener extends TestBase implements ITestListener{
 			
 	}
 
+	@Override
 	public void onTestSkipped(ITestResult result) {
 		System.out.println("*** Test " + result.getMethod().getMethodName() + " skipped...");
 		ExtentTestManager.getTest().log(Status.SKIP, "Test Skipped");
 	}
 
+	@Override
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
 		System.out.println("*** Test failed but within percentage % " + result.getMethod().getMethodName());
 	}
