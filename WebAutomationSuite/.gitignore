@@ -1,1 +1,6 @@
 /target/
+/FailedTestsScreenshots/
+/PassedTestsScreenshots/
+/TestReport/
+/bin/
+/test-output/
