@@ -33,7 +33,6 @@ workflows:
       - build:
           filters:
             branches:
-              ignore:
-                - branch_one
               only:
-                - master
+                - branch_one
+              
