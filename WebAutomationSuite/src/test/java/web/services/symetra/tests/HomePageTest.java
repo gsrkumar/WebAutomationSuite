@@ -36,7 +36,7 @@ public class HomePageTest extends TestBase{
 	
 	@Test(priority = 2)
 	public void testTwo() {
-		System.out.println("Bye...."); 
+		System.out.println("Bye.."); 
 		Assert.assertEquals("Bye", "Bye");
 	}
 	
