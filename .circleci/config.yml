@@ -31,12 +31,12 @@ jobs:
           channel: G016CQCG6LT
           color: '#42e2f4'
           message: This is a custom message notification
-          webhook: eddiewebb/webhook@0.0.4
+          webhook: webhook 
 orbs:
   slack: circleci/slack@x.y.z
-version: 2.1
+
 workflows:
-  
+version: 2.1  
   build-test-deploy:
     jobs:
       - build:
