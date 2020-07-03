@@ -5,7 +5,7 @@ jobs:
     working_directory: ~/WebAutomationSuite
 
     docker:
-      - image: circleci/web-automation:firstimage
+      - image: sureifylabs/sureify-automation:firstimage
       
 
     steps:
@@ -22,7 +22,7 @@ jobs:
             - ~/.m2
           key: WebAutomationSuite-{{ checksum "pom.xml" }}
       
-      - run: mvn clean test -DsuiteXmlFile=testng.xml
+      - run: cd WebAutomationSuite && mvn clean test -DsuiteXmlFile=testng.xml
       
       - store_artifacts:
           path: ./WebAutomationSuite/TestReport
@@ -33,7 +33,5 @@ workflows:
       - build:
           filters:
             branches:
-              ignore:
-                - branch_one
               only:
-                - master
+                - branch_one
