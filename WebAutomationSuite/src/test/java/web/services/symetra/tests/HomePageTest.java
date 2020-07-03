@@ -19,9 +19,6 @@ public class HomePageTest extends TestBase{
 		super();
 	}
 	
-	@BeforeClass
-	
-	
 	@BeforeMethod
 	public void openBrowser() {
 	  lanch();
