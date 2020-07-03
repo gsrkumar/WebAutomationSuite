@@ -1,4 +1,3 @@
-version: 2.1
 jobs:
   build:
     
@@ -36,6 +35,7 @@ orbs:
   slack: circleci/slack@x.y.z
 version: 2.1 
 workflows:
+version: 2.1
   build-test-deploy:
     jobs:
       - build:
