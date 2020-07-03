@@ -9,7 +9,7 @@ jobs:
       
 
     steps:
-
+       
       - checkout
 
       - restore_cache:
@@ -26,7 +26,7 @@ jobs:
       
       - store_artifacts:
           path: ./WebAutomationSuite/TestReport
-       - slack/notify:
+      - slack/notify:
           channel: G016CQCG6LT
           color: '#42e2f4'
           message: This is a custom message notification
