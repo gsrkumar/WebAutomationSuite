@@ -27,7 +27,7 @@ jobs:
       - store_artifacts:
           path: ./WebAutomationSuite/TestReport
 workflows:
-version: 2.0
+  version: 2.0
   build-test-deploy:
     jobs:
       - build:
