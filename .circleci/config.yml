@@ -33,8 +33,9 @@ jobs:
           webhook: eddiewebb/webhook@0.0.4
 orbs:
   slack: circleci/slack@x.y.z
+version: 2.1
 workflows:
-  version: 2
+  version: 2.1
   build-test-deploy:
     jobs:
       - build:
