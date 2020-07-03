@@ -26,6 +26,13 @@ jobs:
       
       - store_artifacts:
           path: ./WebAutomationSuite/TestReport
+       - slack/notify:
+          channel: G016CQCG6LT
+          color: '#42e2f4'
+          message: This is a custom message notification
+          webhook: eddiewebb/webhook@0.0.4
+orbs:
+  slack: circleci/slack@x.y.z
 workflows:
   version: 2
   build-test-deploy:
