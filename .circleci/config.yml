@@ -1,3 +1,4 @@
+version: 2.0
 jobs:
   build:
     
@@ -33,9 +34,8 @@ jobs:
           webhook: webhook 
 orbs:
   slack: circleci/slack@x.y.z
-version: 2.1 
 workflows:
-version: 2.1
+version: 2.0
   build-test-deploy:
     jobs:
       - build:
